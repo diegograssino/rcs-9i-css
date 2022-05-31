@@ -131,3 +131,56 @@ table {
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.comment {
+  margin-bottom: 1rem;
+  padding: 8px;
+}
+
+.display-block {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.card {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.card-container {
+  background-color: bisque;
+  margin: 8px;
+  padding: 8px;
+}
+
+.color-lightblue {
+  background-color: lightblue;
+}
+
+.color-lightcoral {
+  background-color: lightcoral;
+}
