@@ -1,3 +1,92 @@
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: #293462;
+  color: white;
+  height: 7vh;
+}
+
+.nav-spacer {
+  flex-grow: 10;
+}
+
+.nav-section {
+  padding: 10px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 93vh;
+  background-image: url(https://wallpapercave.com/wp/wp2471697.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: azure;
+}
+
+.login-btn {
+  background-color: #293462;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.conocenos-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+article {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+article img {
+  border-radius: 30px;
+}
+
+footer {
+  background-color: #293462;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
 }
